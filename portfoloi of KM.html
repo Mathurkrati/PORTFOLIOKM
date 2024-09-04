@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="view" content="width=device-width, initial-scale=1.0">
+    <title>Krati Mathur's folio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f4f4f4, #e0e0e0);
+            color: #333;
+            overflow-x: hidden;
+        }
+        .header {
+            background: #4CAF50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .header p {
+            font-size: 1.2rem;
+        }
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid #fff;
+            transition: color 0.3s, border-color 0.3s;
+        }
+        .header a:hover {
+            color: #e4e4e4;
+            border-color: #e4e4e4;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #4CAF50;
+            margin: 1rem auto;
+            display: block;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        .section h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: #4CAF50;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+        }
+        .section p, .section ul {
+            margin: 0;
+            padding: 0;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s, transform 0.3s;
+        }
+        .section ul li:hover {
+            background: #e4e4e4;
+            transform: scale(1.02);
+        }
+        .section a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section a:hover {
+            text-decoration: underline;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.02);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin-top: 0.5rem;
+            font-size: 1.5rem;
+            color: #4CAF50;
+        }
+        .card p {
+            font-size: 1rem;
+            color: #666;
+        }
+        .button {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin: 0.5rem;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background: #45a049;
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            .header p {
+                font-size: 1rem;
+            }
+            .container {
+                width: 95%;
+                padding: 1rem;
+            }
+            .section h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Krati Mathur</h1>
+        <p>"Passionate Data Science with Machine Learning enthusiast"</p>
+        <p>
+            📧 <a href="mailto:kratimathur.it25@gmail.com">Email Me</a> |
+            📞 <a href="tel:9414657712">Call Me</a>
+        </p>
+        <p>
+            <a href="https://linkedin.com/in/kratimathur13" class="button">LinkedIn</a>
+            <a href="https://github.com/Mathurkrati" class="button">GitHub</a>
+        </p>
+    </div>
+
+    <div class="container">
+        <img src="km.jpeg" alt="Krati Mathur" class="profile-photo">
+        <p>Enthusiastic IT professional with a strong background in AI/ML, aiming to apply innovative solutions and technical expertise
+            to drive impactful results. Eager to contribute to a forward-thinking organization and enhance operational excellence while
+            advancing my career.</p>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>JECRC Foundation</h3>
+                    <h5>November 2021 – May 2025</h5>
+                    <p>Bachelors of Technology (Information Technology)- 9.18</p>
+                    <p>Jaipur, Rajasthan</p>
+                </li>
+                <li>
+                    <h3>Tagore Public School</h3>
+                    <h5>April 2018 – April 2020</h5>
+                    <p>Matriculation - 84.2%, Intermediate - 85%</p>
+                    <p>Jaipur, Rajasthan</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Certifications Section -->
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>
+                    <div class="card">
+                        <h3>Data Science with AI/ML Intern</h3>
+                        <h5>Celebal Technologies Pvt. Ltd.</h5>
+                        <h5>June 2024 – August 2024 (Jaipur, Rajasthan)</h5>
+                        <p>• Executed data preprocessing, feature engineering, and model evaluation, contributing to a 15% improvement in
+                            model accuracy for real-world applications.</p>
+                        <p>• Led projects such as Document Clustering for Topic Modeling and Hotel Tip Management, optimizing project
+                            efficiency by 20%.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <h3>Data Science with AI/ML Intern</h3>
+                        <h5>Learn and Build Pvt. Ltd.</h5>
+                        <h5>July 2023 – September 2023 (Jaipur, Rajasthan)</h5>
+                        <p>• Developed a Car Price Prediction Model that improved price accuracy by 12%, leveraging advanced machine learning
+                            techniques to enhance predictive performance.</p>
+                        <p>• Applied statistical analysis to real-time automotive market data, increasing model prediction accuracy by 18% and
+                            suping data-driven decision-making for stakeholders.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <div class="card">                       
+                        <h3>Dynamic Data Visualization Tool</h3>
+                        <h5>September 2024</h5>
+                        <p><a href="https://github.com/Mathurkrati/VisuaLite-Interactive-Data-Visualization-Tool">GitHub</a></p>
+                        <p>Sophisticated desktop application using Python's tkinter for GUI, pandas for data manipulation, and matplotlib and seaborn for data visualization. Simplifies data exploration by providing an interface to upload datasets and generate plots.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">                     
+                        <h3>Car Price Prediction System</h3>
+                        <h5>July 2023</h5>
+                        <p><a href="https://github.com/Mathurkrati/Car-Price-Prediction">GitHub</a></p>
+                        <p>Analyzed car listings to develop a predictive model for car prices, improving accuracy by 12% compared to traditional methods. Helps stakeholders make informed financial decisions.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <h3>Document-Clustering-for-Topic-Modeling</h3>
+                        <h5>June 2024</h5>
+                        <p><a href="https://github.com/Mathurkrati/Document-Clustering-for-Topic-Modeling?tab=readme-ov-file#document-clustering-for-topic-modeling">GitHub</a></p>
+                        <p>Combines document clustering with topic modeling to organize and understand large text collections, enhancing content categorization and text analysis.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Languages: Python, C++, HTML, CSS (Basic), Data Science, Machine Learning</li>
+                <li>Developer Tools: VS Code, Jupyter Notebook</li>
+                <li>Technologies: GitHub</li>
+            </ul>
+        </div>
+
+        <!-- Leadership / Extracurricular Section -->
+        <div class="section">
+            <h2>Leadership / Extracurricular</h2>
+            <ul>
+                <li>Led the “Social Media Team” at JECRC Alumni Association, managing the Cords-JECRC Mentorship Program and engaging over 500 alumni and students.</li>
+                <li>Moderated the "ALUMNI MEET AND GREET SESSION", coordinating with over 100+ students and enhancing alumni relations.</li>
+                <li>Coordinated placement activities as a “Student Coordinator” at JECRC Placement Cell, suping the smooth organization of over 15+ placement events.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
